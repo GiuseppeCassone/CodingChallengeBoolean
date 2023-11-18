@@ -1,0 +1,62 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+
+.container{
+    width: 1000px;
+    margin: auto;
+    padding: 80px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+}
+
+.logo-text{
+    color: rgb(59, 240, 59);
+    font-size: 25px;
+}
+
+nav{
+   padding: 10px;
+   text-align: center;
+   background-color: rgb(59, 240, 59);
+}
+
+section{
+    padding: 20px;
+}
+
+strong{
+    font-size: 25px;
+}
+
+.first-charge, .second-charge, .third-charge{
+    height: 25px;
+    border-radius: 5px;
+}
+
+.first-charge{
+    background-color: orange;
+    width: 280px;
+    
+}
+
+.second-charge{
+    background-color: limegreen;
+    width: 500px;
+}
+
+.third-charge{
+    background-color: red;
+    width: 130px;
+}
